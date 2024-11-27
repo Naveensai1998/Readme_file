@@ -1,0 +1,17 @@
+{
+  "count": <number_of_matching_books>,
+  "books": [
+    {
+      "title": <book_title>,
+      "author": <author_name>,
+      "genre": <book_genre>,
+      "language": <book_language>,
+      "subjects": [<subject_1>, <subject_2>],
+      "bookshelves": [<bookshelf_1>, <bookshelf_2>],
+      "downloads": [
+        {"mime_type": <mime_type>, "link": <download_link>}
+      ]
+    },
+    ...
+  ]
+}
